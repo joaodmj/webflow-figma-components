@@ -1,7 +1,7 @@
 [
 	{
 		"type": "FRAME",
-		"name": "Navigation Bar",
+		"name": "Navigation Bar Right",
 
 		"layoutGrow": 0,
 		"layoutAlign": "INHERIT",
