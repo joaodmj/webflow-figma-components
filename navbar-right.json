@@ -1,8 +1,242 @@
-{
-	"name": "Navigation Bar Right",
-  	"id": "1116771147482943610",
-	"api": "1.0.0",
-	"main": "dist/code.js",
-	"ui": "dist/ui.html",
-	"editorType": ["figma"]
-}
+[
+	{
+		"type": "FRAME",
+		"name": "Navigation Bar",
+
+		"layoutGrow": 0,
+		"layoutAlign": "INHERIT",
+		"layoutMode": "HORIZONTAL",
+		"primaryAxisAlignItems": "CENTER",
+		"primaryAxisSizingMode": "FIXED",
+
+		"counterAxisAlignItems": "MIN",
+		"counterAxisSizingMode": "AUTO",
+
+		"resize": { "w": 1440, "h": 94 },
+
+		"children": [
+			{
+				"type": "FRAME",
+				"name": "Container",
+
+				"layoutGrow": 0,
+				"layoutAlign": "INHERIT",
+				"layoutMode": "HORIZONTAL",
+
+				"primaryAxisAlignItems": "SPACE_BETWEEN",
+				"primaryAxisSizingMode": "FIXED",
+
+				"counterAxisAlignItems": "CENTER",
+				"counterAxisSizingMode": "AUTO",
+
+				"resize": { "w": 1100, "h": 94 },
+				
+				"children": [
+					{
+						"type": "FRAME",
+						"name": "Left",
+
+						"layoutGrow": 0,
+						"layoutAlign": "INHERIT",
+						"layoutMode": "HORIZONTAL",
+
+						"primaryAxisAlignItems": "MIN",
+						"primaryAxisSizingMode": "FIXED",
+
+						"counterAxisAlignItems": "CENTER",
+						"counterAxisSizingMode": "AUTO",
+
+						"resize": { "w": 200, "h": 30 },
+						
+						"children": [
+							{
+								"type": "TEXT",
+								"name": "Company Logo",
+								"characters": "Company Logo",
+
+								"fontSize": 14,
+								"fontName": {"family": "Inter", "style": "Bold"},
+								"lineHeight": {"value": 20, "unit": "PIXELS"},
+								"letterSpacing": {"value": 2, "unit": "PIXELS"},
+								"textAlignHorizontal": "LEFT",
+								"textAlignVertical": "TOP",
+								"textAutoResize": "WIDTH_AND_HEIGHT",
+								"textCase": "ORIGINAL",
+								"textDecoration": "NONE",
+
+								"fills": [
+									{
+										"type": "SOLID",
+										"visible": true,
+										"opacity": 1,
+										"blendMode": "NORMAL",
+										"color": {
+											"r": 0,
+											"g": 0,
+											"b": 0
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "FRAME",
+						"name": "Right",
+
+						"layoutGrow": 1,
+						"layoutAlign": "INHERIT",
+						"layoutMode": "HORIZONTAL",
+						"itemSpacing": 24,
+
+						"primaryAxisAlignItems": "MAX",
+						"primaryAxisSizingMode": "FIXED",
+
+						"counterAxisAlignItems": "CENTER",
+						"counterAxisSizingMode": "AUTO",
+
+						"resize": { "w": 200, "h": 46 },
+						
+						"children": [
+							{
+								"type": "FRAME",
+								"name": "Links",
+
+								"layoutGrow": 0,
+								"layoutAlign": "INHERIT",
+								"layoutMode": "HORIZONTAL",
+								"itemSpacing": 24,
+
+								"primaryAxisAlignItems": "MAX",
+								"primaryAxisSizingMode": "AUTO",
+
+								"counterAxisAlignItems": "CENTER",
+								"counterAxisSizingMode": "AUTO",
+
+								"resize": { "w": 384, "h": 19 },
+
+								"children": [
+									{
+										"type": "TEXT",
+										"name": "Nav Item",
+										"characters": "About",
+										"fontSize": 14,
+										"lineHeight": {"value": 20, "unit": "PIXELS"},
+										"textAlignHorizontal": "LEFT",
+										"textAlignVertical": "TOP",
+										"textAutoResize": "WIDTH_AND_HEIGHT",
+										"textCase": "ORIGINAL",
+										"textDecoration": "NONE"
+									},
+									{
+										"type": "TEXT",
+										"name": "Nav Item",
+										"characters": "Feature",
+										"fontSize": 14,
+										"lineHeight": {"value": 20, "unit": "PIXELS"},
+										"textAlignHorizontal": "LEFT",
+										"textAlignVertical": "TOP",
+										"textAutoResize": "WIDTH_AND_HEIGHT",
+										"textCase": "ORIGINAL",
+										"textDecoration": "NONE"
+									},
+									{
+										"type": "TEXT",
+										"name": "Nav Item",
+										"characters": "User Examples",
+										"fontSize": 14,
+										"lineHeight": {"value": 20, "unit": "PIXELS"},
+										"textAlignHorizontal": "LEFT",
+										"textAlignVertical": "TOP",
+										"textAutoResize": "WIDTH_AND_HEIGHT",
+										"textCase": "ORIGINAL",
+										"textDecoration": "NONE"
+									},
+									{
+										"type": "TEXT",
+										"name": "Nav Item",
+										"characters": "Pricing",
+										"fontSize": 14,
+										"lineHeight": {"value": 20, "unit": "PIXELS"},
+										"textAlignHorizontal": "LEFT",
+										"textAlignVertical": "TOP",
+										"textAutoResize": "WIDTH_AND_HEIGHT",
+										"textCase": "ORIGINAL",
+										"textDecoration": "NONE"
+									}
+								]
+							},
+							{
+								"type": "FRAME",
+								"name": "Button Primary",
+
+								"layoutGrow": 0,
+								"layoutAlign": "INHERIT",
+								"layoutMode": "HORIZONTAL",
+
+								"primaryAxisAlignItems": "CENTER",
+								"primaryAxisSizingMode": "AUTO",
+
+								"counterAxisAlignItems": "MIN",
+								"counterAxisSizingMode": "AUTO",
+								"itemSpacing": 0,
+
+								"paddingLeft": 25,
+								"paddingRight": 25,
+								"paddingTop": 12,
+								"paddingBottom": 12,
+
+								"fills": [
+									{
+										"type": "SOLID",
+										"visible": true,
+										"opacity": 1,
+										"blendMode": "NORMAL",
+										"color": {
+											"r": 0.07222222536802292,
+											"g": 0.07500000298023224,
+											"b": 0.08611111342906952
+										}
+									}
+								],
+
+								"resize": { "w": 151, "h": 44 },
+
+								"children": [
+									{
+										"type": "TEXT",
+										"name": "Get Started",
+										"characters": "Get Started",
+
+										"fontSize": 12,
+										"lineHeight": {"value": 20, "unit": "PIXELS"},
+										"letterSpacing": {"value": 2, "unit": "PIXELS"},
+										"textAlignHorizontal": "LEFT",
+										"textAlignVertical": "TOP",
+										"textAutoResize": "WIDTH_AND_HEIGHT",
+										"textCase": "UPPER",
+										"textDecoration": "NONE",
+
+										"fills": [
+											{
+												"type": "SOLID",
+												"visible": true,
+												"opacity": 1,
+												"blendMode": "NORMAL",
+												"color": {
+													"r": 1,
+													"g": 1,
+													"b": 1
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
